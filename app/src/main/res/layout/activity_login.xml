@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".Activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="97dp"
+            android:src="@drawable/i_running_logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/loginUsernameEditText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="Username"
+            android:inputType="text"></EditText>
+
+        <EditText
+            android:id="@+id/loginPassEditText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="Password"
+            android:inputType="textPassword"></EditText>
+
+        <CheckBox
+            android:id="@+id/showPassCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="60dp"
+            android:text="Show password">
+
+        </CheckBox>
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_round_corner"
+            android:onClick="onClick_loginBtn"
+            android:text="LOG IN"
+            android:textColor="@color/white"
+            android:textStyle="bold"></Button>
+
+        <Button
+            android:id="@+id/navigateToSignInBtn"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_round_corner"
+            android:onClick="onClick_navigateToSignInBtn"
+            android:text="SIGN UP"
+            android:textColor="@color/white"
+            android:textStyle="bold"></Button>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/facebookLoginBtn"
+            android:layout_width="300dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:height="@dimen/cardview_default_radius"
+            android:onClick="onClick_facebookLoginBtn"
+            android:paddingLeft="17dp"
+            android:textAlignment="center" />
+
+        <com.shaishavgandhi.loginbuttons.GoogleButton
+            android:id="@+id/googleLoginBtn"
+            android:layout_width="300dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:onClick="onClick_googleLoginBtn"
+            android:text="Continue with Google"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:iconCenterAligned="false"
+            app:iconPadding="23dp"
+            app:iconSize="15dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

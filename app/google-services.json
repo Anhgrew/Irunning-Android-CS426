@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "606071453148",
+    "firebase_url": "https://irunningserver-fa0d7.firebaseio.com",
+    "project_id": "irunningserver-fa0d7",
+    "storage_bucket": "irunningserver-fa0d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606071453148:android:80699c53080c9eca464b19",
+        "android_client_info": {
+          "package_name": "com.appsnipp.homedesign2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606071453148-onvv73gpmb2d334midl5t8q9o203e9au.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDndOQgjQNI-PmPSShL4VtYL4H0MU32YLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606071453148-onvv73gpmb2d334midl5t8q9o203e9au.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

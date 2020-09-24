@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation1"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="News" />
+
+    <item
+        android:id="@+id/navigation2"
+        android:icon="@drawable/ic_effort"
+        android:title="Diet" />
+
+    <item
+        android:id="@+id/navigation3"
+        android:icon="@drawable/ic_home"
+        android:title="Running" />
+
+    <item
+        android:id="@+id/navigation4"
+        android:icon="@drawable/ic_setting"
+        android:title="Muzic" />
+
+    <item
+        android:id="@+id/navigation5"
+        android:icon="@drawable/ic_user"
+        android:title="Setting" />
+
+</menu>
